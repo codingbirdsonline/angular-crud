@@ -20,4 +20,8 @@ export class ApiService {
   public getStudentDetails(studentId: any) {
     return this.http.get(this.BASE_URL + '/students/' + studentId);
   }
+
+  public deleteStudent(studentId: number) {
+    return this.http.delete(this.BASE_URL + '/students/' + studentId);
+  }
 }

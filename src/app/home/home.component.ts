@@ -24,4 +24,11 @@ export class HomeComponent implements OnInit {
       }
     );
   }
+
+  public deleteStudent(id: number) {
+    this.apiService.deleteStudent(id).subscribe((response: any) => {
+      console.log('response', response);
+      this.loadstudentData();
+    });
+  }
 }

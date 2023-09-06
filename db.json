@@ -1,28 +1,28 @@
 {
   "students": [
     {
-      "name": "Ankit",
-      "email": "ttest@test.com",
+      "name": "Student1",
+      "email": "Student@test.com",
       "contact": "4543543646",
       "id": 1
     },
     {
-      "name": "Jay",
-      "email": "jay@test.com",
+      "name": "Student2",
+      "email": "Student2@test.com",
       "contact": "5455464554",
       "id": 2
     },
     {
-      "name": "amit",
-      "email": "tttt@ttt.com",
-      "contact": "4444444444",
-      "id": 3
-    },
-    {
-      "name": "3333",
-      "email": "ttttttt@tttt.co",
+      "name": "Student4",
+      "email": "Student4@tttt.co",
       "contact": "3333333333",
       "id": 4
+    },
+    {
+      "name": "Student6",
+      "email": "Student6@gmail.com",
+      "contact": "4444444444",
+      "id": 5
     }
   ]
 }
